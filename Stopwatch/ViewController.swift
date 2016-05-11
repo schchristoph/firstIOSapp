@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var timerbutton: UIButton!
 
     @IBAction func buttontapped(sender: AnyObject) {
-        timerbutton.setTitle("Stopp", forState: .Application)
+        timerbutton.setTitle("Stopp", forState: .Normal)
     }
     
     
