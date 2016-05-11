@@ -29,6 +29,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TV-b2-bFj">
                                 <rect key="frame" x="266" y="369" width="69" height="69"/>
                                 <state key="normal" title="Start" backgroundImage="Button"/>
+                                <connections>
+                                    <action selector="buttontapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpG-Nv-VuL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,6 +43,10 @@
                             <constraint firstItem="cM0-Kn-9bE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jTf-j4-7iS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timerbutton" destination="8TV-b2-bFj" id="zeM-Aa-VHi"/>
+                        <outlet property="timerlabel" destination="cM0-Kn-9bE" id="eHR-J8-sbA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
